@@ -1,0 +1,55 @@
+body {
+  text-align: center; /* Center all text content */
+  background-color: rgb(131, 161, 172);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  padding: 2px;
+  font-size: 2ch;
+  line-height: 1.2;
+}
+
+.container {
+  width: 27%;
+  height: 10vh;
+  margin: 67px auto; /* Adjust margin for better centering */
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(37, 16, 75, 0.5);
+}
+
+.navbar-links {
+  width: 50%;
+  margin: 0 auto; /* Center navbar links */
+}
+
+.logo {
+  width: 30%;
+  margin: 0 auto; /* Center logo */
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px; /* Adjust indentation */
+}
+
+ul li {
+  /* Additional styles for list items if needed */
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: red;
+  font-family: 'Moon 2.0', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+li:hover {
+  transition: all 0.5s ease-in;
+  background-color: darkcyan;
+}
